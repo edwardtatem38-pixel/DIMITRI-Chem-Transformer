@@ -1,5 +1,9 @@
 # DIMITRI-Chem-Transformer 🧪🤖
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/edwardtatem38-pixel/DIMITRI-Chem-Transformer/blob/main/Chemistry_llm_2.ipynb)
+
+---
+
 A Sequence-to-Sequence Transformer model for chemical reaction prediction, benchmarked on the USPTO dataset.
 
 ## 📊 Performance Benchmark
