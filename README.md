@@ -17,3 +17,14 @@ The model successfully generalized to unseen reactions (e.g., Index #5005), demo
 
 ## 🛠️ Usage
 Requires `torch`, `selfies`, and `rdkit`.
+
+## 💾 Model Weights (DIMITRI-v1)
+The trained weights for this benchmark are hosted on Google Drive to ensure high-speed access and bypass GitHub file size limits.
+
+**Download the weights here:** 👉 [DIMITRI Model Weights Folder](https://drive.google.com/drive/folders/1gLkvvnXhgnRBBA4zeClgK18qnpGOpNAe?usp=sharing)
+
+### 🧪 How to Load
+After downloading `chemist_model_sprint.pth` and uploading it to your own Colab session, use the following code:
+```python
+model.load_state_dict(torch.load('chemist_model_sprint.pth'))
+model.eval()
